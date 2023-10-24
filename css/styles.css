@@ -1,11 +1,24 @@
 /* ============== COMMON STYLES ============== */
-
-.list {
-    list-style-type: none;
+h1, 
+h2,
+h3, 
+h4, 
+h5, 
+h6, 
+p {
+margin-top: 0;
+margin-bottom: 0;
 }
 
-.link {
-    text-decoration: none;
+ul, 
+ol {
+margin-top: 0;
+margin-bottom: 0;
+padding-left: 0;
+}
+
+img {
+display: block;
 }
 
 button {
@@ -19,6 +32,14 @@ button {
     background: #4D5AE5;
 }
 
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
 .button:hover,
 .button:focus {
     background: #404BBF;
@@ -28,6 +49,14 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #FFFFFF;
     color: #434455;
+}
+
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .logo-span {
@@ -49,9 +78,35 @@ body {
     font-style: normal;
 }
 
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 /* ============== COMMON STYLES ============== */
 
 /* ============== HEADER STYLES ============== */
+
+.page-header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.page-navigation {
+    display: flex;    
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    column-gap: 40px;
+}
+
+.contact-list {
+    display: flex;
+    column-gap: 40px;
+}
 
 .logotype {
     font-family: 'Raleway', sans-serif;
@@ -62,6 +117,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    margin-right: 76px;
 }
 
 .menu-link {
@@ -89,6 +145,11 @@ body {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
+    width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 188px;
+    padding-bottom: 288px;
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
@@ -111,6 +172,7 @@ body {
 
 .hero{
     background-color: #2e2f42; 
+    height: 600px;
 }
 
 /* ============== HERO STYLES ============== */
@@ -139,11 +201,27 @@ body {
     color: #434455;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+  
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
 /* ============== BENEFITS STYLES ============== */
 
 /* ============== OUR TEAM ============== */
 
 .our-team-list {
+    display: flex;
+    column-gap: 24px;
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
     line-height: 1.1; 
@@ -173,10 +251,27 @@ body {
 
 .our-team {
     background-color: #F4F4FD;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .our-team-list-item {
     background-color: #FFFFFF;
+    width: 264px;
+}
+
+.our-team-img {
+    margin-bottom: 32px;
+}
+
+.third-heading {
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.paragraph-item {
+    margin-bottom: 32px;
+    text-align: center;
 }
 
 /* ============== OUR TEAM ============== */
@@ -185,6 +280,26 @@ body {
 
 .portfolio-list {
     background-color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+}
+
+.portfolio-list-img {
+    margin-bottom: 32px;
+}
+
+.third-heading-portfolio {
+    margin-bottom: 8px;
+}
+
+.paragraph-item-portfolio {
+    margin-bottom: 32px;
+}
+
+.portfolio-list-item {
+    width: 360px;
+    border: 1px solid #E7E9FC;
 }
 
 /* ============== OUR PORTFOLIO ============== */
