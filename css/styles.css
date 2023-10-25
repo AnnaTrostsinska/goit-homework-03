@@ -209,7 +209,6 @@ body {
 .benefits-list {
     display: flex;
     gap: 24px;
-    row-gap: 48px;
 }
 
 .benefits-list-title {
@@ -233,6 +232,7 @@ body {
 .benefits-list-item {
     width: calc((100% - 72px) / 4);
     margin-bottom: 48px;
+    row-gap: 48px;
 }
     
 .benefits-list-item:nth-last-child(-n+3) {
