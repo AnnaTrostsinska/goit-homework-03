@@ -231,6 +231,12 @@ body {
 
 .benefits-list-item {
     width: calc((100% - 72px) / 4);
+    margin-bottom: 48px;
+}
+    
+.benefits-list-item:nth-last-child(-n+3) {
+    margin-bottom: 0;
+
 }
 
 .visually-hidden {
@@ -347,7 +353,6 @@ body {
 .portfolio-list-item {
     width: 360px;
     border: 1px solid #E7E9FC;
-    border-top: none;
 }
 
 /* ============== OUR PORTFOLIO ============== */
