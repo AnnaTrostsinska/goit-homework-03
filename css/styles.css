@@ -71,13 +71,25 @@ body {
 }
 
 .second-heading {
+    margin-bottom: 8px; 
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11; 
     letter-spacing: 0.02em;
-    margin-bottom: 8px;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.second-heading-team {
+    margin-bottom: 72px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11; 
+    letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
 }
@@ -241,7 +253,7 @@ body {
 
 .our-team-list {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
     line-height: 1.1; 
@@ -257,6 +269,8 @@ body {
     font-weight: 500;
     line-height: 1.2; 
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    text-align: center;
     color: #2E2F42;
 }
 
@@ -278,20 +292,20 @@ body {
 .our-team-list-item {
     background-color: #FFFFFF;
     width: 264px;
+    border-radius: 0px 0px 4px 4px; 
 }
 
 .our-team-img {
     margin-bottom: 32px;
 }
 
-.third-heading {
-    margin-bottom: 8px;
-    text-align: center;
-}
-
 .paragraph-item {
     margin-bottom: 32px;
     text-align: center;
+}
+
+.div-team {
+    padding: 32px 0;
 }
 
 /* ============== OUR TEAM============== */
