@@ -203,12 +203,13 @@ body {
 
 .benefits {
     background-color: #FFFFFF;
-    padding: 120px 0 120px:
+    padding: 120px 0 120px;
 }
 
 .benefits-list {
     display: flex;
     gap: 24px;
+    row-gap: 48px;
 }
 
 .benefits-list-title {
