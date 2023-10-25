@@ -77,6 +77,7 @@ body {
     font-weight: 700;
     line-height: 1.11; 
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
     text-transform: capitalize;
     color: #2E2F42;
 }
@@ -190,6 +191,12 @@ body {
 
 .benefits {
     background-color: #FFFFFF;
+    padding: 120px 0:
+}
+
+.benefits-list {
+    display: flex;
+    gap: 24px;
 }
 
 .benefits-list-title {
@@ -208,6 +215,10 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.benefits-list-item {
+    width: calc((100% - 72px) / 4);
 }
 
 .visually-hidden {
@@ -291,7 +302,7 @@ body {
     background-color: #FFFFFF;
     display: flex;
     flex-wrap: wrap;
-    column-gap: 24px;
+    gap: 24px;
 }
 
 .portfolio-list-img {
