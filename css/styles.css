@@ -120,7 +120,7 @@ body {
     justify-content: space-between;
 }
 
-.menu {
+.menu-list {
     display: flex;
     gap: 40px;
 }
