@@ -120,7 +120,7 @@ body {
     justify-content: space-between;
 }
 
-.menu-list {
+.menu {
     display: flex;
     gap: 40px;
 }
@@ -132,7 +132,7 @@ body {
 
 .contact-list-item {
     display: flex;
-    gap: 40px;
+    margin-right: 40px;
 }
 
 .logotype {
