@@ -71,7 +71,7 @@ body {
 }
 
 .second-heading {
-    margin-bottom: 8px;
+    margin-bottom: 72px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
@@ -212,6 +212,7 @@ body {
 }
 
 .benefits-list-title {
+    margin-bottom: 8px;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 500;
