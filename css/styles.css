@@ -114,10 +114,6 @@ body {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.page-header-container {
-    display: flex;
-}
-
 .page-navigation {
     display: flex;    
     align-items: center;
@@ -130,6 +126,11 @@ body {
 }
 
 .contact-list {
+    display: flex;
+    gap: 40px;
+}
+
+.contact-list-item {
     display: flex;
     gap: 40px;
 }
