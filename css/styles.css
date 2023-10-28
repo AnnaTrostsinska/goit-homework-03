@@ -108,12 +108,6 @@ body {
 
 /* ============== HEADER STYLES ============== */
 
-.page-header-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
 .page-header {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -169,24 +163,6 @@ body {
     color: #404bbf;
 }
 
-/* ============== HEADER STYLES ============== */
-
-/* ============== HERO STYLES ============== */
-
-.main-title {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 1.07;
-    max-width: 496px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 188px;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
-}
-
 .contact-item {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
@@ -201,6 +177,24 @@ body {
 .contact-item:hover,
 .contact-item:focus {
     color: #404BBF;
+}
+
+/* ============== HEADER STYLES ============== */
+
+/* ============== HERO STYLES ============== */
+
+.main-title {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 48px;
 }
 
 .hero {
@@ -366,7 +360,7 @@ body {
 .div-portfolio {
     border-bottom: 1px solid #e7e9fc;
     border-top: none;
-    padding: 36px 16px;
+    padding: 32px 16px;
 }
 
 .our-portfolio {
