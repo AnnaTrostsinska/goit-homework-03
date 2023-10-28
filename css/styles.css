@@ -39,6 +39,10 @@ button {
     background: #4D5AE5;
 }
 
+address {
+    margin-left: auto;
+}
+
 .list {
     list-style-type: none;
 }
@@ -94,34 +98,34 @@ body {
     color: #2E2F42;
 }
 
-.address {
+.header-contacts {
     font-style: normal;
     display: flex;
 }
 
-.section {
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
+
 
 /* ============== COMMON STYLES ============== */
 
 /* ============== HEADER STYLES ============== */
 
 .page-header {
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
+}
+
+.page-header .container {
+    display: flex;
 }
 
 .page-navigation {
     display: flex;    
     align-items: center;
-    justify-content: space-between;
 }
 
 .menu {
     display: flex;
+    align-items: center;
+    margin: 0 auto;
     gap: 40px;
 }
 
@@ -133,6 +137,7 @@ body {
 .contact-list-item {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .logotype {
@@ -277,7 +282,6 @@ body {
 }
 
 .third-heading {
-    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2; 
@@ -298,7 +302,7 @@ body {
 
 .our-team {
     background-color: #F4F4FD;
-    padding: 120px 0 120px;
+    padding: 120px 0;
 }
 
 .our-team-list-item {
@@ -307,12 +311,7 @@ body {
     border-radius: 0px 0px 4px 4px; 
 }
 
-.our-team-img {
-    margin-bottom: 32px;
-}
-
 .paragraph-item {
-    margin-bottom: 32px;
     text-align: center;
 }
 
