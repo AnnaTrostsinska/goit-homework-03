@@ -70,23 +70,7 @@ body {
     padding-right: 15px;
 }
 
-.logo-span {
-    color: #2E2F42;
-}
-
 .second-heading {
-    margin-bottom: 72px;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11; 
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2E2F42;
-}
-
-.second-heading-team {
     margin-bottom: 72px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -115,22 +99,6 @@ body {
     align-items: center;
 }
 
-.menu {
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-    gap: 40px;
-}
-
-.contact-header-list {
-    display: flex;
-    gap: 40px;
-}
-
-.contact-list-item {
-    padding: 24px 0;
-}
-
 .logotype {
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
@@ -141,6 +109,17 @@ body {
     text-transform: uppercase;
     color: #4D5AE5;
     margin-right: 76px;
+}
+
+.logo-span {
+    color: #2E2F42;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 40px;
 }
 
 .menu-link {
@@ -157,6 +136,15 @@ body {
 .menu-link:hover,
 .menu-link:focus {   
     color: #404bbf;
+}
+
+.contact-header-list {
+    display: flex;
+    gap: 40px;
+}
+
+.contact-list-item {
+    padding: 24px 0;
 }
 
 .contact-item {
@@ -179,6 +167,12 @@ body {
 
 /* ============== HERO STYLES ============== */
 
+.hero {
+    background-color: #2e2f42; 
+    height: 600px;
+    padding: 188px 0;
+}
+
 .main-title {
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -193,12 +187,6 @@ body {
     margin-bottom: 48px;
 }
 
-.hero {
-    background-color: #2e2f42; 
-    height: 600px;
-    padding: 188px 0;
-}
-
 /* ============== HERO STYLES ============== */
 
 /* ============== BENEFITS STYLES ============== */
@@ -211,6 +199,14 @@ body {
 .benefits-list {
     display: flex;
     gap: 24px;
+}
+
+.benefits-list-item {
+    width: calc((100% - 72px) / 4);
+}
+    
+.benefits-list-item:nth-last-child(-n+3) {
+    margin-bottom: 0;
 }
 
 .benefits-list-title {
@@ -232,14 +228,6 @@ body {
     color: #434455;
 }
 
-.benefits-list-item {
-    width: calc((100% - 72px) / 4);
-}
-    
-.benefits-list-item:nth-last-child(-n+3) {
-    margin-bottom: 0;
-}
-
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -258,6 +246,23 @@ body {
 
 /* ============== OUR TEAM ============== */
 
+.our-team {
+    background-color: #F4F4FD;
+    padding: 120px 0;
+}
+
+.second-heading-team {
+    margin-bottom: 72px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11; 
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
 .our-team-list {
     display: flex;
     gap: 24px;
@@ -268,6 +273,16 @@ body {
     letter-spacing: 0.02em;
     color: #2E2F42;
     background-color: #F4F4FD;
+}
+
+.our-team-list-item {
+    background-color: #FFFFFF;
+    width: 264px;
+    border-radius: 0px 0px 4px 4px; 
+}
+
+.div-team {
+    padding: 32px 0;
 }
 
 .third-heading {
@@ -289,28 +304,17 @@ body {
     color: #434455;
 }
 
-.our-team {
-    background-color: #F4F4FD;
-    padding: 120px 0;
-}
-
-.our-team-list-item {
-    background-color: #FFFFFF;
-    width: 264px;
-    border-radius: 0px 0px 4px 4px; 
-}
-
 .paragraph-item {
     text-align: center;
-}
-
-.div-team {
-    padding: 32px 0;
 }
 
 /* ============== OUR TEAM============== */
 
 /* ============== OUR PORTFOLIO ============== */
+
+.our-portfolio {
+    padding: 120px 0;
+}
 
 .second-heading-portfolio {
     margin-bottom: 72px; 
@@ -332,6 +336,17 @@ body {
     column-gap: 24px;
 }
 
+.portfolio-list-item {
+    width: 360px;
+    width: calc((100% - 48px) / 3);
+}
+
+.div-portfolio {
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    padding: 32px 16px;
+}
+
 .third-heading-portfolio {
     margin-bottom: 8px;
     font-size: 20px;
@@ -349,24 +364,20 @@ body {
     color: #434455;
 }
 
-.portfolio-list-item {
-    width: 360px;
-    width: calc((100% - 48px) / 3);
-}
-
-.div-portfolio {
-    border: 1px solid #e7e9fc;
-    border-top: none;
-    padding: 32px 16px;
-}
-
-.our-portfolio {
-    padding: 120px 0;
-}
-
 /* ============== OUR PORTFOLIO ============== */
 
 /* ============== FOOTER STYLES ============== */
+
+.page-footer {
+    padding: 100px 0 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
 
 .logotype-link-footer {
     text-decoration: none;
@@ -381,16 +392,6 @@ body {
     color: #4d5ae5;
 }
 
-.page-footer {
-    padding: 100px 0 100px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5; 
-    letter-spacing: 0.02em;
-    background-color: #2E2F42;
-    color: #F4F4FD;
-}
 .logo-span-footer {
     color: #F4F4FD;
     background-color: #2E2F42;
