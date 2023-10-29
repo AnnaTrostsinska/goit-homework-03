@@ -234,8 +234,6 @@ body {
 
 .benefits-list-item {
     width: calc((100% - 72px) / 4);
-    margin-bottom: 48px;
-    row-gap: 48px;
 }
     
 .benefits-list-item:nth-last-child(-n+3) {
@@ -336,19 +334,28 @@ body {
 
 .third-heading-portfolio {
     margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 
 .paragraph-item-portfolio {
-    margin-bottom: 32px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .portfolio-list-item {
     width: 360px;
-    border: 1px solid #E7E9FC;
+    width: calc((100% - 48px) / 3);
 }
 
 .div-portfolio {
-    border-bottom: 1px solid #e7e9fc;
+    border: 1px solid #e7e9fc;
     border-top: none;
     padding: 32px 16px;
 }
